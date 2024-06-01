@@ -1,0 +1,8 @@
+[package]
+name = "cicada-window"
+version = "0.1.0"
+authors = ["Ahraman"]
+description = "Crate cicada-window provides support for window creation and management with a unified interface on desktop"
+
+edition.workspace = true
+rust-version.workspace = true

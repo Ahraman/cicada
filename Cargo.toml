@@ -1,6 +1,11 @@
-[package]
-name = "cicada"
-version = "0.1.0"
-edition = "2021"
+[workspace]
+resolver = "2"
+members = [
+  # Service crates -- including crates used for accessing different services 
+  # and utilities like rendering, window, audio, etc.
+  "crates/service/cicada-window",
+]
 
-[dependencies]
+[workspace.package]
+edition = "2021"
+rust-version = "1.78.0"
